@@ -9,4 +9,5 @@ A Dapp built for keeping secrets in a decentralized manner. It uses ENS Ethereum
 The current account public key will encrypt the secret content before storing it to IPFS. The decryption will be achieved uppon grant of decryption from current account (via private key). Private key is never visible during the process.
 
 
-## Live app in Goerli testnet: https://goerli.laokas.com
+## Live app:
+- Goerli testnet: https://goerli.laokas.com
