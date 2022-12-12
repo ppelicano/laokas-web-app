@@ -1,0 +1,53 @@
+/*Animations*/
+
+.dot-animation {
+    display: inline-block;
+    margin: 0 8px -1px;
+}
+
+.dot-flashing {
+    position: relative;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    color: #fff;
+    animation: dotFlashing 1s infinite linear alternate;
+    animation-delay: .5s;
+}
+
+.dot-flashing::before,
+.dot-flashing::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.dot-flashing::before {
+    left: -17px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    color: #fff;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 0s;
+}
+
+.dot-flashing::after {
+    left: 17px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    color: #fff;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 1s;
+}
+
+@keyframes dotFlashing {
+    0% {
+        background-color: #1D1E22;
+    }
+    50% {
+        background-color: #fff;
+    }
+}

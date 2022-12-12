@@ -1,0 +1,19 @@
+{
+    "email": "pedropelicano@gmail.com",
+    "email_verified": true,
+    "family_name": "Pelicano",
+    "gender": "male",
+    "given_name": "Pedro",
+    "identities": [
+        {
+            "provider": "google-oauth2",
+            "user_id": "103547991597142817347",
+            "connection": "google-oauth2",
+            "isSocial": true
+        }
+    ],
+    "locale": "en",
+    "name": "Pedro Pelicano",
+    "nickname": "ppelicano",
+    "picture": "https://lh4.googleusercontent.com/-OdsbOXom9qE/AAAAAAAAAAI/AAAAAAAAADU/_j8SzYTOJ4I/photo.jpg"
+}

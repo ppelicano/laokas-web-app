@@ -1,0 +1,60 @@
+{
+    "name": "auth-iframe",
+    "version": "0.1.0",
+    "private": true,
+    "type":"module",
+    "dependencies": {
+        "@ensdomains/ensjs": "^2.0.1",
+        "axios": "^0.24.0",
+        "core-js": "^3.21.0",
+        "cra-template": "1.1.2",
+        "crypto-js": "^4.1.1",
+        "dotenv": "^10.0.0",
+        "eth-ens-namehash-ms": "^2.2.0",
+        "eth-sig-util": "^3.0.1",
+        "ethereumjs-util": "^7.1.3",
+        "ipfs-core": "^0.13.0",
+        "react": "^17.0.2",
+        "react-app-polyfill": "^3.0.0",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^6.2.1",
+        "react-scripts": "4.0.3",
+        "truffle-hdwallet-provider": "^1.0.17",
+        "uint8arrays": "^3.0.0",
+        "w3name": "^1.0.6",
+        "web-vitals": "^2.1.2",
+        "web3": "^1.6.1",
+        "web3-token": "^0.1.32",
+        "web3.storage": "^3.5.1",
+        "web3modal": "^1.9.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "aws:purge": "aws cloudfront create-invalidation --distribution-id ESHN066XP94IU --paths \"/index.html\"",
+        "aws:release": "aws s3 cp \"/Users/pedropelicano/repos/laokas/laokas-web-app/build\" s3://account0.koolabah.com --recursive",
+        "aws": "npm run build && npm run aws:release && npm run aws:purge"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            "chrome >= 67",
+            "edge >= 79",
+            "firefox >= 68",
+            "opera >= 54",
+            "safari >= 14"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
