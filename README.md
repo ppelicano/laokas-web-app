@@ -21,7 +21,7 @@ The current account public key will encrypt the secret content before storing it
 - If you do not have test Eth get it from https://goerlifaucet.com/
 
 ### App actions
-![alt text](https://github.com/ppelicano/laokas-web-app/blob/main/0.png?raw=true)
+![alt text](https://github.com/ppelicano/laokas-web-app/screenshots/main/0.png?raw=true)
 ![alt text](https://github.com/ppelicano/laokas-web-app/blob/main/1.png?raw=true)
 ![alt text](https://github.com/ppelicano/laokas-web-app/blob/main/2.png?raw=true)
 ![alt text](https://github.com/ppelicano/laokas-web-app/blob/main/3.png?raw=true)
