@@ -33,3 +33,6 @@ The current account public key will encrypt the secret content before storing it
 ![alt text](https://raw.githubusercontent.com/ppelicano/laokas-web-app/main/screenshots/9.png)
 ![alt text](https://raw.githubusercontent.com/ppelicano/laokas-web-app/main/screenshots/10.png)
 ![alt text](https://raw.githubusercontent.com/ppelicano/laokas-web-app/main/screenshots/11.png)
+
+
+Laokas name credit goes to QOTSA song => https://www.youtube.com/watch?v=0l0nzPpvbFs
