@@ -2,7 +2,8 @@
 
 ## ENS Subdomain Factory Smart Contracts
 
-A Dapp built for keeping secrets in a decentralized manner. It uses ENS Ethereum name service to create a subdomain for each account. This subdomain will then hold a TXT record that links to the IPFS secret file.
+A Dapp built for keeping secrets in a decentralized manner. It uses ENS Ethereum name service to create a subdomain for each account. This subdomain will then hold a TXT record that links to the IPFS secret file. Smart contract can be found at: 
+https://github.com/ppelicano/laokas-smart-contract
 
 ## Public/Private Key Encryption/Decryption
 
